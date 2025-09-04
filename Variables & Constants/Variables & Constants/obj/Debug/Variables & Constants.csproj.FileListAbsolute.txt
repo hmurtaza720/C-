@@ -1,0 +1,8 @@
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\bin\Debug\Variables & Constants.exe.config
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\bin\Debug\Variables & Constants.exe
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\bin\Debug\Variables & Constants.pdb
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\obj\Debug\Variables & Constants.csproj.AssemblyReference.cache
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\obj\Debug\Variables & Constants.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\obj\Debug\Variables & Constants.exe
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\obj\Debug\Variables & Constants.pdb
+C:\Users\i_murtaza\Git C#\Variables & Constants\Variables & Constants\obj\Debug\Variables & Constants.exe.config
