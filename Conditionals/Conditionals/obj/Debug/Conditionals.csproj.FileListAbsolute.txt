@@ -1,0 +1,8 @@
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\bin\Debug\Conditionals.exe.config
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\bin\Debug\Conditionals.exe
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\bin\Debug\Conditionals.pdb
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\obj\Debug\Conditionals.csproj.AssemblyReference.cache
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\obj\Debug\Conditionals.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\obj\Debug\Conditionals.exe
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\obj\Debug\Conditionals.pdb
+C:\Users\i_murtaza\Git C#\Conditionals\Conditionals\obj\Debug\Conditionals.exe.config
