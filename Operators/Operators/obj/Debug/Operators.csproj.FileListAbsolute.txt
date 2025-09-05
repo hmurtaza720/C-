@@ -1,0 +1,8 @@
+C:\Users\i_murtaza\Git C#\Operators\Operators\bin\Debug\Operators.exe.config
+C:\Users\i_murtaza\Git C#\Operators\Operators\bin\Debug\Operators.exe
+C:\Users\i_murtaza\Git C#\Operators\Operators\bin\Debug\Operators.pdb
+C:\Users\i_murtaza\Git C#\Operators\Operators\obj\Debug\Operators.csproj.AssemblyReference.cache
+C:\Users\i_murtaza\Git C#\Operators\Operators\obj\Debug\Operators.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\Operators\Operators\obj\Debug\Operators.exe
+C:\Users\i_murtaza\Git C#\Operators\Operators\obj\Debug\Operators.pdb
+C:\Users\i_murtaza\Git C#\Operators\Operators\obj\Debug\Operators.exe.config
