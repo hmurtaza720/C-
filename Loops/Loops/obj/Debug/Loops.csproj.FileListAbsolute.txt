@@ -1,0 +1,8 @@
+C:\Users\i_murtaza\Git C#\Loops\Loops\bin\Debug\Loops.exe.config
+C:\Users\i_murtaza\Git C#\Loops\Loops\bin\Debug\Loops.exe
+C:\Users\i_murtaza\Git C#\Loops\Loops\bin\Debug\Loops.pdb
+C:\Users\i_murtaza\Git C#\Loops\Loops\obj\Debug\Loops.csproj.AssemblyReference.cache
+C:\Users\i_murtaza\Git C#\Loops\Loops\obj\Debug\Loops.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\Loops\Loops\obj\Debug\Loops.exe
+C:\Users\i_murtaza\Git C#\Loops\Loops\obj\Debug\Loops.pdb
+C:\Users\i_murtaza\Git C#\Loops\Loops\obj\Debug\Loops.exe.config
