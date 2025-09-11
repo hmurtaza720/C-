@@ -1,0 +1,8 @@
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\bin\Debug\Arrays.exe.config
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\bin\Debug\Arrays.exe
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\bin\Debug\Arrays.pdb
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\obj\Debug\Arrays.exe
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\obj\Debug\Arrays.pdb
+C:\Users\i_murtaza\Git C#\Arrays\Arrays\obj\Debug\Arrays.exe.config
