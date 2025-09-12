@@ -1,0 +1,8 @@
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\bin\Debug\Menu-Driven Calculator.exe.config
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\bin\Debug\Menu-Driven Calculator.exe
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\bin\Debug\Menu-Driven Calculator.pdb
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\obj\Debug\Menu-Driven Calculator.csproj.AssemblyReference.cache
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\obj\Debug\Menu-Driven Calculator.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\obj\Debug\Menu-Driven Calculator.exe
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\obj\Debug\Menu-Driven Calculator.pdb
+C:\Users\i_murtaza\Git C#\Menu-Driven Calculator\Menu-Driven Calculator\obj\Debug\Menu-Driven Calculator.exe.config
