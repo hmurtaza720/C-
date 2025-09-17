@@ -1,0 +1,14 @@
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\bin\Debug\net8.0\OOP Basics Week 3.exe
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\bin\Debug\net8.0\OOP Basics Week 3.deps.json
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\bin\Debug\net8.0\OOP Basics Week 3.runtimeconfig.json
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\bin\Debug\net8.0\OOP Basics Week 3.dll
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\bin\Debug\net8.0\OOP Basics Week 3.pdb
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\OOP Basics Week 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\OOP Basics Week 3.AssemblyInfoInputs.cache
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\OOP Basics Week 3.AssemblyInfo.cs
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\OOP Basics Week 3.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\OOP Basics Week 3.dll
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\refint\OOP Basics Week 3.dll
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\OOP Basics Week 3.pdb
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\OOP Basics Week 3.genruntimeconfig.cache
+C:\Users\i_murtaza\source\repos\OOP Basics Week 3\OOP Basics Week 3\obj\Debug\net8.0\ref\OOP Basics Week 3.dll

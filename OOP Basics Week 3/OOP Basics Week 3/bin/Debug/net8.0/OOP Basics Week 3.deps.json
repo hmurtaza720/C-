@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OOP Basics Week 3/1.0.0": {
+        "runtime": {
+          "OOP Basics Week 3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OOP Basics Week 3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
