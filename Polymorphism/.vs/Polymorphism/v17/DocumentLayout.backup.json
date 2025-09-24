@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\i_murtaza\\Git C#\\C-\\Polymorphism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B23944C9-45F4-4A0B-AB04-D37F297A1754}|Polymorphism\\Polymorphism.csproj|c:\\users\\i_murtaza\\git c#\\c-\\polymorphism\\polymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23944C9-45F4-4A0B-AB04-D37F297A1754}|Polymorphism\\Polymorphism.csproj|solutionrelative:polymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\Polymorphism\\Polymorphism\\Program.cs",
+              "RelativeDocumentMoniker": "Polymorphism\\Program.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\Polymorphism\\Polymorphism\\Program.cs*",
+              "RelativeToolTip": "Polymorphism\\Program.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowDsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:05:59.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
