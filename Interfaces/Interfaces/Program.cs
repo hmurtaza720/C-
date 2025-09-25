@@ -51,7 +51,9 @@ namespace interfaces
         public static void Main(string[] args)
         {
 
-            while (true)
+            bool IsRunning = true;
+
+            while (IsRunning)
             {
                 Console.WriteLine("=== CHOOSE OPTIONS === ");
                 Console.WriteLine("Enter '1' to create a Car ");
@@ -78,7 +80,8 @@ namespace interfaces
                         break;
                     case 4:
                         Console.WriteLine("Exiting the program.");
-                        return;
+                        IsRunning = false;
+                        break;
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");
                         break;

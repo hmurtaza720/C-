@@ -1,0 +1,15 @@
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\bin\Debug\net8.0\OOP MINI PROJECT.exe
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\bin\Debug\net8.0\OOP MINI PROJECT.deps.json
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\bin\Debug\net8.0\OOP MINI PROJECT.runtimeconfig.json
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\bin\Debug\net8.0\OOP MINI PROJECT.dll
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\bin\Debug\net8.0\OOP MINI PROJECT.pdb
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.AssemblyInfoInputs.cache
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.AssemblyInfo.cs
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.sourcelink.json
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.dll
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\refint\OOP MINI PROJECT.dll
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.pdb
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\OOP MINI PROJECT.genruntimeconfig.cache
+C:\Users\i_murtaza\Git C#\C-\OOP MINI PROJECT\OOP MINI PROJECT\obj\Debug\net8.0\ref\OOP MINI PROJECT.dll

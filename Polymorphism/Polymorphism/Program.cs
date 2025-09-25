@@ -8,7 +8,6 @@ namespace Polymorphism
     {
         public abstract double Area();
     }
-
     // Abstraction , Inheritance and Polymorphism
     public class Circle : Shape
     {
