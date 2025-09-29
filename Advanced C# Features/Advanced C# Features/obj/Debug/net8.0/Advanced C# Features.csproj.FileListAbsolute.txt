@@ -1,0 +1,15 @@
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\bin\Debug\net8.0\Advanced C# Features.exe
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\bin\Debug\net8.0\Advanced C# Features.deps.json
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\bin\Debug\net8.0\Advanced C# Features.runtimeconfig.json
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\bin\Debug\net8.0\Advanced C# Features.dll
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\bin\Debug\net8.0\Advanced C# Features.pdb
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.AssemblyInfoInputs.cache
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.AssemblyInfo.cs
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.sourcelink.json
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.dll
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\refint\Advanced C# Features.dll
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.pdb
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\Advanced C# Features.genruntimeconfig.cache
+C:\Users\i_murtaza\Git C#\C-\Advanced C# Features\Advanced C# Features\obj\Debug\net8.0\ref\Advanced C# Features.dll

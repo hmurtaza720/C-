@@ -1,0 +1,15 @@
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\bin\Debug\net8.0\Collections & Generics.exe
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\bin\Debug\net8.0\Collections & Generics.deps.json
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\bin\Debug\net8.0\Collections & Generics.runtimeconfig.json
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\bin\Debug\net8.0\Collections & Generics.dll
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\bin\Debug\net8.0\Collections & Generics.pdb
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.AssemblyInfoInputs.cache
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.AssemblyInfo.cs
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.sourcelink.json
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.dll
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\refint\Collections & Generics.dll
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.pdb
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\Collections & Generics.genruntimeconfig.cache
+C:\Users\i_murtaza\Git C#\C-\Collections & Generics\Collections & Generics\obj\Debug\net8.0\ref\Collections & Generics.dll
