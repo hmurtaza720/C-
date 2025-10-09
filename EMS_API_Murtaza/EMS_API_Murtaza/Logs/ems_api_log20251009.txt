@@ -1,0 +1,98 @@
+2025-10-09 13:24:27.908 +05:00 [INF] Now listening on: https://localhost:7251
+2025-10-09 13:24:27.974 +05:00 [INF] Now listening on: http://localhost:5063
+2025-10-09 13:24:28.076 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 13:24:28.080 +05:00 [INF] Hosting environment: Development
+2025-10-09 13:24:28.081 +05:00 [INF] Content root path: C:\Users\i_murtaza\Git C#\C-\EMS_API_Murtaza\EMS_API_Murtaza
+2025-10-09 13:24:29.224 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/_vs/browserLink - null null
+2025-10-09 13:24:29.224 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-09 13:24:29.285 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 59.5079ms
+2025-10-09 13:24:29.728 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/_vs/browserLink - 200 null text/javascript; charset=UTF-8 506.8852ms
+2025-10-09 13:24:29.826 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - null null
+2025-10-09 13:24:29.916 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.7699ms
+2025-10-09 13:25:02.829 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:02.977 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:03.009 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:25:03.285 +05:00 [INF] Fetching all employees at "2025-10-09T13:25:03.2850558+05:00"
+2025-10-09 13:25:04.732 +05:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[BaseSalary], [e].[CreatedAt], [e].[DateOfBirth], [e].[DepartmentId], [e].[Email], [e].[EmployeeNumber], [e].[FirstName], [e].[HireDate], [e].[IsActive], [e].[LastName], [e].[ManagerId], [e].[Phone]
+FROM [m].[Employees] AS [e]
+2025-10-09 13:25:04.863 +05:00 [INF] Employee data cached at "2025-10-09T13:25:04.8633391+05:00"
+2025-10-09 13:25:04.871 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 13:25:04.894 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 1874.2617ms
+2025-10-09 13:25:04.896 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:04.914 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 2085.4682ms
+2025-10-09 13:25:44.893 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:44.908 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:44.910 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:25:44.920 +05:00 [INF] Fetching all employees at "2025-10-09T13:25:44.9201099+05:00"
+2025-10-09 13:25:44.922 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 13:25:44.924 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 11.2277ms
+2025-10-09 13:25:44.926 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:44.927 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 34.4015ms
+2025-10-09 13:25:45.529 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:45.536 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:45.540 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:25:45.549 +05:00 [INF] Fetching all employees at "2025-10-09T13:25:45.5498067+05:00"
+2025-10-09 13:25:45.552 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 13:25:45.554 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 11.9173ms
+2025-10-09 13:25:45.557 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:45.558 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 29.4761ms
+2025-10-09 13:25:46.081 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:46.090 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:46.095 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:25:46.098 +05:00 [INF] Fetching all employees at "2025-10-09T13:25:46.0981378+05:00"
+2025-10-09 13:25:46.099 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 13:25:46.104 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 6.737ms
+2025-10-09 13:25:46.107 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:46.109 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 27.6843ms
+2025-10-09 13:25:46.697 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:46.706 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:46.710 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:25:46.712 +05:00 [INF] Fetching all employees at "2025-10-09T13:25:46.7125599+05:00"
+2025-10-09 13:25:46.718 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 13:25:46.721 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 9.5057ms
+2025-10-09 13:25:46.723 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:46.725 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 27.2825ms
+2025-10-09 13:25:47.381 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:47.392 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:47.395 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:25:47.398 +05:00 [INF] Fetching all employees at "2025-10-09T13:25:47.3979907+05:00"
+2025-10-09 13:25:47.399 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 13:25:47.406 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 8.6962ms
+2025-10-09 13:25:47.408 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:25:47.410 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 28.3022ms
+2025-10-09 13:25:48.064 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:48.076 +05:00 [INF] Request get:/api/employees from IP ::1 has been blocked, quota 5/10s exceeded by 1. Blocked by rule *, TraceIdentifier 0HNG71L1OGHCM:00000013. MonitorMode: False
+2025-10-09 13:25:48.078 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 429 null text/plain 14.2476ms
+2025-10-09 13:25:48.756 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:48.764 +05:00 [INF] Request get:/api/employees from IP ::1 has been blocked, quota 5/10s exceeded by 2. Blocked by rule *, TraceIdentifier 0HNG71L1OGHCM:00000015. MonitorMode: False
+2025-10-09 13:25:48.767 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 429 null text/plain 10.336ms
+2025-10-09 13:25:49.416 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:49.423 +05:00 [INF] Request get:/api/employees from IP ::1 has been blocked, quota 5/10s exceeded by 3. Blocked by rule *, TraceIdentifier 0HNG71L1OGHCM:00000017. MonitorMode: False
+2025-10-09 13:25:49.425 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 429 null text/plain 8.4528ms
+2025-10-09 13:25:50.115 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:50.127 +05:00 [INF] Request get:/api/employees from IP ::1 has been blocked, quota 5/10s exceeded by 4. Blocked by rule *, TraceIdentifier 0HNG71L1OGHCM:00000019. MonitorMode: False
+2025-10-09 13:25:50.129 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 429 null text/plain 13.9238ms
+2025-10-09 13:25:50.686 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:25:50.701 +05:00 [INF] Request get:/api/employees from IP ::1 has been blocked, quota 5/10s exceeded by 5. Blocked by rule *, TraceIdentifier 0HNG71L1OGHCM:0000001B. MonitorMode: False
+2025-10-09 13:25:50.703 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 429 null text/plain 16.3828ms
+2025-10-09 13:27:40.962 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-09 13:27:40.972 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:27:40.974 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:27:40.976 +05:00 [INF] Fetching all employees at "2025-10-09T13:27:40.9767439+05:00"
+2025-10-09 13:27:40.977 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 13:27:40.979 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 2.6905ms
+2025-10-09 13:27:40.980 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-09 13:27:40.983 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 21.123ms
+2025-10-09 13:33:09.633 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees/2 - null null
+2025-10-09 13:33:09.643 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployee (EMS_API_Murtaza)'
+2025-10-09 13:33:09.660 +05:00 [INF] Route matched with {action = "GetEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployee(Int32) on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-09 13:33:09.699 +05:00 [INF] Fetching employee with ID 2 at "2025-10-09T13:33:09.6990334+05:00"
+2025-10-09 13:33:09.879 +05:00 [INF] Executed DbCommand (22ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[BaseSalary], [e].[CreatedAt], [e].[DateOfBirth], [e].[DepartmentId], [e].[Email], [e].[EmployeeNumber], [e].[FirstName], [e].[HireDate], [e].[IsActive], [e].[LastName], [e].[ManagerId], [e].[Phone]
+FROM [m].[Employees] AS [e]
+WHERE [e].[EmployeeId] = @__p_0
+2025-10-09 13:33:09.894 +05:00 [INF] Executing OkObjectResult, writing value of type 'EMS_API_Murtaza.DTOs.EmployeeDto'.
+2025-10-09 13:33:09.897 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployee (EMS_API_Murtaza) in 233.7034ms
+2025-10-09 13:33:09.898 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployee (EMS_API_Murtaza)'
+2025-10-09 13:33:09.900 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees/2 - 200 null application/json; charset=utf-8 267.4824ms

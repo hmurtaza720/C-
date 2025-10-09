@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|c:\\users\\i_murtaza\\git c#\\c-\\ems_api_murtaza\\ems_api_murtaza\\models\\emscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|solutionrelative:ems_api_murtaza\\models\\emscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|c:\\users\\i_murtaza\\git c#\\c-\\ems_api_murtaza\\ems_api_murtaza\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|solutionrelative:ems_api_murtaza\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|c:\\users\\i_murtaza\\git c#\\c-\\ems_api_murtaza\\ems_api_murtaza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|solutionrelative:ems_api_murtaza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|c:\\users\\i_murtaza\\git c#\\c-\\ems_api_murtaza\\ems_api_murtaza\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|solutionrelative:ems_api_murtaza\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|c:\\users\\i_murtaza\\git c#\\c-\\ems_api_murtaza\\ems_api_murtaza\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|solutionrelative:ems_api_murtaza\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|c:\\users\\i_murtaza\\git c#\\c-\\ems_api_murtaza\\ems_api_murtaza\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54C099D-CC76-4733-8656-B6F7740F4AEA}|EMS_API_Murtaza\\EMS_API_Murtaza.csproj|solutionrelative:ems_api_murtaza\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "EMS_API_Murtaza\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "EMS_API_Murtaza\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T08:22:42.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\DTOS\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "EMS_API_Murtaza\\DTOS\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\DTOS\\EmployeeDto.cs",
+              "RelativeToolTip": "EMS_API_Murtaza\\DTOS\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T08:21:43.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\appsettings.json",
+              "RelativeDocumentMoniker": "EMS_API_Murtaza\\appsettings.json",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\appsettings.json",
+              "RelativeToolTip": "EMS_API_Murtaza\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T07:42:34.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EMSContext.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Models\\EMSContext.cs",
+              "RelativeDocumentMoniker": "EMS_API_Murtaza\\Models\\EMSContext.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Models\\EMSContext.cs",
+              "RelativeToolTip": "EMS_API_Murtaza\\Models\\EMSContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:57:27.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EMS_API_Murtaza\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EMS_API_Murtaza\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T07:05:06.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Program.cs",
+              "RelativeDocumentMoniker": "EMS_API_Murtaza\\Program.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\EMS_API_Murtaza\\EMS_API_Murtaza\\Program.cs",
+              "RelativeToolTip": "EMS_API_Murtaza\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:33:10.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

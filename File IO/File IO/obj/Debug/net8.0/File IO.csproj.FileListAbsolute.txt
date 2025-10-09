@@ -1,0 +1,15 @@
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\bin\Debug\net8.0\File IO.exe
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\bin\Debug\net8.0\File IO.deps.json
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\bin\Debug\net8.0\File IO.runtimeconfig.json
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\bin\Debug\net8.0\File IO.dll
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\bin\Debug\net8.0\File IO.pdb
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.AssemblyInfoInputs.cache
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.AssemblyInfo.cs
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.csproj.CoreCompileInputs.cache
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.sourcelink.json
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.dll
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\refint\File IO.dll
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.pdb
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\File IO.genruntimeconfig.cache
+C:\Users\i_murtaza\Git C#\C-\File IO\File IO\obj\Debug\net8.0\ref\File IO.dll

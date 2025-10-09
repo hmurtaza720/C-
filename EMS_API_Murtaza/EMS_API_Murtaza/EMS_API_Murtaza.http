@@ -1,0 +1,6 @@
+@EMS_API_Murtaza_HostAddress = http://localhost:5063
+
+GET {{EMS_API_Murtaza_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
