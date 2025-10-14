@@ -1,0 +1,11 @@
+2025-10-13 11:35:08.539 +05:00 [INF] Now listening on: https://localhost:7251
+2025-10-13 11:35:08.593 +05:00 [INF] Now listening on: http://localhost:5063
+2025-10-13 11:35:08.961 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-13 11:35:08.967 +05:00 [INF] Hosting environment: Development
+2025-10-13 11:35:08.970 +05:00 [INF] Content root path: C:\Users\i_murtaza\Git C#\C-\EMS_API_Murtaza\EMS_API_Murtaza
+2025-10-13 11:35:10.268 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-13 11:35:10.268 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/_vs/browserLink - null null
+2025-10-13 11:35:10.353 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 86.7108ms
+2025-10-13 11:35:11.081 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/_vs/browserLink - 200 null text/javascript; charset=UTF-8 817.0145ms
+2025-10-13 11:35:11.199 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - null null
+2025-10-13 11:35:11.464 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 264.7633ms

@@ -1,0 +1,28 @@
+2025-10-10 11:42:58.009 +05:00 [INF] Now listening on: https://localhost:7251
+2025-10-10 11:42:58.070 +05:00 [INF] Now listening on: http://localhost:5063
+2025-10-10 11:42:58.236 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-10 11:42:58.313 +05:00 [INF] Hosting environment: Development
+2025-10-10 11:42:58.364 +05:00 [INF] Content root path: C:\Users\i_murtaza\Git C#\C-\EMS_API_Murtaza\EMS_API_Murtaza
+2025-10-10 11:43:00.943 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-10 11:43:00.943 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/_vs/browserLink - null null
+2025-10-10 11:43:01.129 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 188.4376ms
+2025-10-10 11:43:01.647 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/_vs/browserLink - 200 null text/javascript; charset=UTF-8 707.3513ms
+2025-10-10 11:43:01.844 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - null null
+2025-10-10 11:43:01.917 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.7896ms
+2025-10-10 11:45:23.952 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/api/Employees - null null
+2025-10-10 11:45:24.086 +05:00 [INF] Executing endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-10 11:45:24.111 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller EMS_API_Murtaza.Controllers.EmployeesController (EMS_API_Murtaza).
+2025-10-10 11:45:24.549 +05:00 [INF] Fetching all employees at "2025-10-10T11:45:24.5494745+05:00"
+2025-10-10 11:45:26.217 +05:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[BaseSalary], [e].[CreatedAt], [e].[DateOfBirth], [e].[DepartmentId], [e].[Email], [e].[EmployeeNumber], [e].[FirstName], [e].[HireDate], [e].[IsActive], [e].[LastName], [e].[ManagerId], [e].[Phone]
+FROM [m].[Employees] AS [e]
+2025-10-10 11:45:26.367 +05:00 [INF] Employee data cached at "2025-10-10T11:45:26.3676080+05:00"
+2025-10-10 11:45:26.377 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EMS_API_Murtaza.DTOs.EmployeeDto, EMS_API_Murtaza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-10 11:45:26.400 +05:00 [INF] Executed action EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza) in 2278.0025ms
+2025-10-10 11:45:26.404 +05:00 [INF] Executed endpoint 'EMS_API_Murtaza.Controllers.EmployeesController.GetEmployees (EMS_API_Murtaza)'
+2025-10-10 11:45:26.416 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/api/Employees - 200 null application/json; charset=utf-8 2463.9999ms
+2025-10-10 11:46:35.578 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - null null
+2025-10-10 11:46:35.764 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 186.039ms
+2025-10-10 11:46:35.882 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7251/favicon.ico - null null
+2025-10-10 11:46:35.895 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7251/favicon.ico - 404 0 null 13.2118ms
+2025-10-10 11:46:35.902 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7251/favicon.ico, Response status code: 404

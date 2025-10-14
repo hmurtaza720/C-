@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EMS_API_Murtaza")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fec330412d53d27a79dc41fdfd43ce829e517ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d887560c6bdeb792a32037582b9c3ba6e817455b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EMS_API_Murtaza")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EMS_API_Murtaza")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
