@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using M_UserLogin.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace M_UserLogin.Controllers
@@ -17,6 +18,8 @@ namespace M_UserLogin.Controllers
         {
             return View();
         }
+
+        [Authorize]
 
         public IActionResult Privacy()
         {
