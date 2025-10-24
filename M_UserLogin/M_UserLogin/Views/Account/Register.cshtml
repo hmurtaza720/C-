@@ -1,54 +1,70 @@
-﻿@using M_UserLogin.ViewModels;
-@model RegisterViewModel;
+﻿@using M_UserLogin.ViewModels;       // 🔹 Import the namespace where your ViewModels are defined
+@model RegisterViewModel;            // 🔹 Strongly type this view with RegisterViewModel
 
 @{
-    ViewData["Title"] = "";
-    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+    ViewData["Title"] = "";          // 🔹 Optional page title (can be customized)
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";  // 🔹 Set the layout for consistent UI design
 }
 
+<!-- 🔸 Main container for registration page -->
 <div class="account-container">
     <div class="account-box">
-        <h2 class="text-center mb-4">Register</h2>
+        <h2 class="text-center mb-4">Register</h2>   <!-- 🔹 Page heading -->
+
+        <!-- 🔸 Registration form - sends data to AccountController's Register (POST) method -->
         <form asp-action="Register" method="post">
+
+            <!-- 🔹 Shows all validation errors from the model (if any) -->
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+            <!-- 🔸 User Full Name -->
             <div class="mb-3">
-                <label asp-for="Name" class="form-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+                <label asp-for="Name" class="form-label"></label>         <!-- Label for the Name field -->
+                <input asp-for="Name" class="form-control" />             <!-- Input box for Name -->
+                <span asp-validation-for="Name" class="text-danger"></span> <!-- Error message for invalid/missing Name -->
             </div>
 
+            <!-- 🔸 User Email -->
             <div class="mb-3">
-                <label asp-for="Email" class="form-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="mb-3">
-                <label asp-for="Password" class="form-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
+                <label asp-for="Email" class="form-label"></label>        <!-- Label for Email -->
+                <input asp-for="Email" class="form-control" />            <!-- Input box for Email -->
+                <span asp-validation-for="Email" class="text-danger"></span> <!-- Error for invalid/missing Email -->
             </div>
 
-             <div class="mb-3">
-                <label asp-for="ConfirmPassword" class="form-label"></label>
-                <input asp-for="ConfirmPassword" class="form-control" />
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            <!-- 🔸 User Password -->
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>     <!-- Label for Password -->
+                <input asp-for="Password" class="form-control" />         <!-- Input box for Password -->
+                <span asp-validation-for="Password" class="text-danger"></span> <!-- Error message if password is weak or missing -->
             </div>
-           
-            
-            <input type="submit" value="Register" class="btn btn-success w-100 p-2" />
+
+            <!-- 🔸 Confirm Password -->
+            <div class="mb-3">
+                <label asp-for="ConfirmPassword" class="form-label"></label>    <!-- Label for Confirm Password -->
+                <input asp-for="ConfirmPassword" class="form-control" />        <!-- Input box for Confirm Password -->
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span> <!-- Error message if passwords don't match -->
+            </div>
+
+            <!-- 🔸 Submit button -->
+            <input type="submit" value="Register" class="btn btn-success w-100 p-2" /> <!-- Green button for registration -->
+
+            <!-- 🔸 Redirect links for user convenience -->
             <p class="text-center mt-2">
-                Already have an account? <a asp-controller="Account" asp-action="Login" class="text-decoration-none">Login</a>
+                Already have an account?
+                <a asp-controller="Account" asp-action="Login" class="text-decoration-none">Login</a> <!-- Go to Login page -->
             </p>
+
             <div class="text-center">
-                <a asp-controller="Home" asp-action="Index" class="text-decoration-none mt-3">Back</a>
+                <a asp-controller="Home" asp-action="Index" class="text-decoration-none mt-3">Back</a> <!-- Go back to Home page -->
             </div>
         </form>
     </div>
 </div>
 
-@section Scripts{
+<!-- 🔸 Include validation scripts for client-side (instant) validation -->
+@section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+        // This includes jQuery validation scripts so that validation errors appear instantly (without reloading)
     }
 }

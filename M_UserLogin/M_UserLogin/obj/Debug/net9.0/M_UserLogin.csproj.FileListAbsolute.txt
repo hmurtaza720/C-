@@ -10,6 +10,7 @@ C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\M_UserLogi
 C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\Humanizer.dll
+C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\i_murtaza\Git C#\C-\M_UserLogin\M_UserLogin\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

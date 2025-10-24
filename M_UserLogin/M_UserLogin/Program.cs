@@ -1,19 +1,21 @@
-using M_UserLogin.Data;
+﻿using M_UserLogin.Data;
 using M_UserLogin.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// ✅ Adds MVC controller + view support
 builder.Services.AddControllersWithViews();
 
-
+// 🧩 Connects your project to SQL Server
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-
+// 🔐 ASP.NET Core Identity setup
 builder.Services.AddIdentity<Users, IdentityRole>(options =>
 {
     options.Password.RequireNonAlphanumeric = false;
@@ -25,31 +27,58 @@ builder.Services.AddIdentity<Users, IdentityRole>(options =>
     options.SignIn.RequireConfirmedEmail = false;
     options.SignIn.RequireConfirmedPhoneNumber = false;
 })
-    .AddEntityFrameworkStores<AppDbContext>()
-    .AddDefaultTokenProviders();
+.AddEntityFrameworkStores<AppDbContext>()
+.AddDefaultTokenProviders();
 
+// 🔹 JWT Configuration
+var jwtSettings = builder.Configuration.GetSection("Jwt");
+var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
+
+// 🧠 Combined Cookie + JWT authentication
+builder.Services.AddAuthentication(options =>
+{
+    // Default to cookies for MVC (Identity)
+    options.DefaultAuthenticateScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultSignInScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
+})
+.AddCookie(IdentityConstants.ApplicationScheme) // 🍪 for MVC login sessions
+.AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options => // 🔑 for APIs
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidAudience = jwtSettings["Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(key)
+    };
+});
+
+// 🧩 Add the custom JWT token generator service
+builder.Services.AddScoped<M_UserLogin.Helpers.JwtTokenService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// ⚙️ Middleware pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles(); // ✅ Serve wwwroot files properly
 app.UseRouting();
 
+// 🧠 Authentication first → then Authorization
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
+// 📍 Default route now points to the public Welcome page
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-
+    pattern: "{controller=Home}/{action=Welcome}/{id?}");
 
 app.Run();

@@ -1,0 +1,7 @@
+POST http://localhost:5252/api/authapi/login
+Content-Type: application/json
+
+{
+  "email": "hmurtaza510@gmail.com",
+  "password": "murtaza123"
+}

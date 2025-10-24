@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\jwt-test.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\jwt-test.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|c:\\users\\i_murtaza\\git c#\\c-\\m_userlogin\\m_userlogin\\helpers\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC2C4D4-6A4E-4EA8-9C84-212590975357}|M_UserLogin\\M_UserLogin.csproj|solutionrelative:m_userlogin\\helpers\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "M_UserLogin\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Properties\\launchSettings.json",
+              "RelativeToolTip": "M_UserLogin\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T12:42:43.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "M_UserLogin\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\appsettings.Development.json",
+              "RelativeToolTip": "M_UserLogin\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T12:42:30.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Views\\Home\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "M_UserLogin\\Views\\Home\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Views\\Home\\Welcome.cshtml",
+              "RelativeToolTip": "M_UserLogin\\Views\\Home\\Welcome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T12:29:53.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "jwt-test.http",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\jwt-test.http",
+              "RelativeDocumentMoniker": "M_UserLogin\\jwt-test.http",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\jwt-test.http",
+              "RelativeToolTip": "M_UserLogin\\jwt-test.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-24T07:54:41.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthApiController.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Controllers\\AuthApiController.cs",
+              "RelativeDocumentMoniker": "M_UserLogin\\Controllers\\AuthApiController.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Controllers\\AuthApiController.cs",
+              "RelativeToolTip": "M_UserLogin\\Controllers\\AuthApiController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowEIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T07:48:50.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Helpers\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "M_UserLogin\\Helpers\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Helpers\\JwtTokenService.cs",
+              "RelativeToolTip": "M_UserLogin\\Helpers\\JwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T07:42:46.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\appsettings.json",
+              "RelativeDocumentMoniker": "M_UserLogin\\appsettings.json",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\appsettings.json",
+              "RelativeToolTip": "M_UserLogin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T07:37:06.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "M_UserLogin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "M_UserLogin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T07:03:36.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "M_UserLogin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "M_UserLogin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T07:02:59.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Program.cs",
+              "RelativeDocumentMoniker": "M_UserLogin\\Program.cs",
+              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Program.cs",
+              "RelativeToolTip": "M_UserLogin\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:34:20.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "M_UserLogin\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Controllers\\HomeController.cs",
               "RelativeToolTip": "M_UserLogin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:52:36.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "M_UserLogin\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\i_murtaza\\Git C#\\C-\\M_UserLogin\\M_UserLogin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "M_UserLogin\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAIwKUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T07:16:26.921Z",
+              "WhenOpened": "2025-10-24T07:00:59.18Z",
               "EditorCaption": ""
             }
           ]

@@ -1,8 +1,69 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model M_UserLogin.Models.Users
+@{
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <!-- 🧠 Greeting -->
+    <h2 class="text-center mb-3">Welcome, @Model.FullName 👋</h2>
+    <p class="text-center text-muted">Here’s your user dashboard</p>
+
+    <!-- 🧩 Dashboard Cards -->
+    <div class="row mt-4 g-4 text-center">
+
+        <!-- 👤 Profile Card -->
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h5>👤 Profile</h5>
+                    <p class="text-muted small">@Model.Email</p>
+                    <a asp-controller="Home" asp-action="Privacy" class="btn btn-outline-primary btn-sm">View Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔐 Change Password Card -->
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h5>🔐 Change Password</h5>
+                    <p class="text-muted small">Keep your account secure</p>
+                    <a asp-controller="Account" asp-action="ChangePassword" asp-route-username="@Model.Email" class="btn btn-outline-warning btn-sm">Change</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🧾 Register New User -->
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h5>🧾 Register</h5>
+                    <p class="text-muted small">Create a new user account</p>
+                    <a asp-controller="Account" asp-action="Register" class="btn btn-outline-success btn-sm">Register</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🚪 Logout Card -->
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h5>🚪 Logout</h5>
+                    <p class="text-muted small">Exit your session safely</p>
+                    <a asp-controller="Account" asp-action="Logout" class="btn btn-outline-danger btn-sm">Logout</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ⚙️ Dashboard Settings (Admin only later via JWT Role) -->
+        <div class="col-md-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h5>⚙️ Dashboard Settings</h5>
+                    <p class="text-muted small">Manage users, roles, and permissions</p>
+                    <a asp-controller="Admin" asp-action="Index" class="btn btn-outline-secondary btn-sm">Open Settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

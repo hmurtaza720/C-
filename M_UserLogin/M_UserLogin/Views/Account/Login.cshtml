@@ -1,42 +1,63 @@
-﻿@using M_UserLogin.ViewModels
-;
-@model LoginViewModel;
+﻿@using M_UserLogin.ViewModels  // 🔹 Imports your ViewModels namespace
+@model LoginViewModel          // 🔹 Strongly types this view with the LoginViewModel class
 
 @{
-    ViewData["Title"] = "Login";
-    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+    // 🔸 Page settings
+    ViewData["Title"] = "Login";                     // Sets page title
+    Layout = "~/Views/Shared/_AccountLayout.cshtml"; // Uses shared account layout
 }
 
+<!-- 🧱 Main container for the login form -->
 <div class="account-container">
     <div class="account-box">
+        <!-- 🏷️ Page heading -->
         <h2 class="text-center mb-4">Login</h2>
+
+        <!-- 🧩 Login form starts -->
         <form asp-action="Login" method="post">
+            <!-- 🔸 Displays any model validation errors (from server-side validation) -->
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- 📧 Email Input -->
             <div class="mb-3">
-                <label asp-for="Email" class="form-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+                <label asp-for="Email" class="form-label"></label>      <!-- Label text automatically uses display name from model -->
+                <input asp-for="Email" class="form-control" />          <!-- Input box bound to Email property -->
+                <span asp-validation-for="Email" class="text-danger"></span> <!-- Shows validation message -->
             </div>
+
+            <!-- 🔒 Password Input -->
             <div class="mb-3">
                 <label asp-for="Password" class="form-label"></label>
-                <input asp-for="Password" class="form-control" />
+                <input asp-for="Password" class="form-control" />        <!-- Bound to Password property -->
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
+
+            <!-- 🔑 Forgot Password Link -->
             <div class="float-end">
+                <!-- Redirects to VerifyEmail view under Account controller -->
                 <a asp-controller="Account" asp-action="VerifyEmail" class="text-decoration-none">
                     Forgot password?
                 </a>
             </div>
+
+            <!-- ☑️ Remember Me Checkbox -->
             <div class="form-check mb-3">
                 <label class="form-check-label">
                     <input asp-for="RememberMe" class="form-check-input" />
-                    @Html.DisplayNameFor(a=> a.RememberMe)
+                    @Html.DisplayNameFor(a => a.RememberMe)   <!-- Dynamically displays property name -->
                 </label>
             </div>
+
+            <!-- 🚀 Submit Button -->
             <input type="submit" value="Login" class="btn btn-success w-100 p-2" />
+
+            <!-- 🧾 Link to Register Page -->
             <p class="text-center mt-2">
-                Don't have an account? <a asp-controller="Account" asp-action="Register" class="text-decoration-none">Register</a>
+                Don't have an account? 
+                <a asp-controller="Account" asp-action="Register" class="text-decoration-none">Register</a>
             </p>
+
+            <!-- 🔙 Link to go back to Home page -->
             <div class="text-center">
                 <a asp-controller="Home" asp-action="Index" class="text-decoration-none mt-3">Back</a>
             </div>
@@ -44,7 +65,8 @@
     </div>
 </div>
 
-@section Scripts{
+<!-- ⚙️ Scripts section for client-side validation (jQuery validation scripts) -->
+@section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
     }

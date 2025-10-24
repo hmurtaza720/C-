@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="display-4 text-success fw-bold">✅ Application is Running Successfully</h1>
+    <p class="lead text-muted mt-3">
+        Your ASP.NET Core MVC + JWT Authentication app is up and running.
+    </p>
+
+    <div class="mt-4">
+        <h5 class="fw-semibold">Available Endpoints:</h5>
+        <ul class="list-unstyled mt-3">
+            <li>🔹 <code>POST /api/authapi/login</code> → Generate JWT Token</li>
+            <li>🔹 <code>GET /api/authapi/profile</code> → Access protected route</li>
+        </ul>
+    </div>
+
+    <div class="alert alert-info mt-4 w-75 mx-auto">
+        <strong>Tip:</strong> Use <b>Insomnia</b> to test the JWT APIs at:<br />
+        <code>http://localhost:5252/api/authapi/login</code>
+    </div>
+
+    <div class="mt-5">
+        <a asp-controller="Account" asp-action="Login" class="btn btn-success px-4">Go to Login</a>
+    </div>
+
+    <footer class="mt-5 text-muted small">
+        <p>Powered by <strong>ASP.NET Core MVC + JWT Authentication</strong></p>
+    </footer>
+</div>

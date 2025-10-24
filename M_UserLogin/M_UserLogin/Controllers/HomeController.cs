@@ -1,6 +1,6 @@
-using System.Diagnostics;
-using M_UserLogin.Models;
+﻿using M_UserLogin.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace M_UserLogin.Controllers
@@ -8,28 +8,33 @@ namespace M_UserLogin.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly UserManager<Users> _userManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, UserManager<Users> userManager)
         {
             _logger = logger;
+            _userManager = userManager;
         }
 
-        public IActionResult Index()
+        // 👇 Public page — visible without login
+        [AllowAnonymous]
+        public IActionResult Welcome()
         {
             return View();
+        }
+
+        // 👇 Dashboard page — visible only to logged-in users
+        [Authorize]
+        public async Task<IActionResult> Index()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            return View(user);
         }
 
         [Authorize]
+        public IActionResult Privacy() => View();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        [AllowAnonymous]
+        public IActionResult Error() => View();
     }
 }

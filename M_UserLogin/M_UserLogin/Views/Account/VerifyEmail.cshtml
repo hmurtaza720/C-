@@ -1,24 +1,33 @@
-﻿@using M_UserLogin.ViewModels;
-@model VerifyEmailViewModel;
+﻿@using M_UserLogin.ViewModels;       // 🔹 Import the namespace that contains VerifyEmailViewModel
+@model VerifyEmailViewModel;         // 🔹 Strongly type this view with VerifyEmailViewModel
 
 @{
-    ViewData["Title"] = "VerifyEmail";
-    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+    ViewData["Title"] = "VerifyEmail";                     // 🔹 Page title (optional)
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";        // 🔹 Uses the shared account layout for consistent design
 }
 
+<!-- 🔸 Main container for Verify Email page -->
 <div class="account-container">
     <div class="account-box">
-        <h2 class="text-center mb-4">Verify Email</h2>
+        <h2 class="text-center mb-4">Verify Email</h2>     <!-- Page heading -->
+
+        <!-- 🔸 Form that submits to AccountController's VerifyEmail POST method -->
         <form asp-action="VerifyEmail" method="post">
+
+            <!-- 🔹 Displays any validation errors from the model -->
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- 🔸 Email input field -->
             <div class="mb-3">
-                <label asp-for="Email" class="form-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+                <label asp-for="Email" class="form-label"></label>        <!-- Label for Email field -->
+                <input asp-for="Email" class="form-control" />            <!-- Input box linked to Email property -->
+                <span asp-validation-for="Email" class="text-danger"></span> <!-- Error message if Email is invalid or missing -->
             </div>
-          
-            <input type="submit" value="Verify" class="btn btn-success w-100 p-2" />
-            
+
+            <!-- 🔸 Submit button -->
+            <input type="submit" value="Verify" class="btn btn-success w-100 p-2" /> <!-- Sends the entered email to the controller -->
+
+            <!-- 🔸 Link to go back to Home page -->
             <div class="text-center mt-2">
                 <a asp-controller="Home" asp-action="Index" class="text-decoration-none mt-3">Back</a>
             </div>
@@ -26,8 +35,11 @@
     </div>
 </div>
 
-@section Scripts{
+<!-- 🔸 Include validation scripts for real-time input validation (client-side) -->
+@section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+        // This partial view loads jQuery validation libraries
+        // It automatically shows error messages without refreshing the page
     }
 }
